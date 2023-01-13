@@ -10,8 +10,7 @@ const typeDefs = gql`
     module(id: ID!): Module!
   }
 
-  type Mutation {
-    "Increment the number of views of a given track, when the track card is clicked"
+  type Mutation{
     incrementTrackViews(id: ID!): IncrementTrackViewsResponse!
   }
 
